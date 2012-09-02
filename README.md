@@ -25,7 +25,7 @@ You need a input file like below, it must have a COMMAND field, which is the one
 - fields values must be between double quotes (see *Input example*).
 - each field to replace within command will have to be present. Otherwise the result displayed in *Input file* example will produce the *Wrong input file* example.
 - fields present in command must be prepended by a dollar sign and between curly braces such as : **${field}**, otherwise it will produce the *Wrong input file* example.
-- it is possible to precise a priority of iteration in the command by putting a number before the field in curly braces, this priority number must be between *0* (high priority) and *99* (low priority). You can compare the first *Input* and *Output* example with the one called *Priority*
+- it is possible to precise a priority of iteration in the command by putting a number before the field in curly braces (as **${priority:field}**, this priority number must be between *0* (high priority) and *99* (low priority). You can compare the first *Input* and *Output* example with the one called *Priority*. In case no priority is indicated, then the priority order will be the order of field apparition in the COMMAND field value.
 - You can redirect the output to a file like in example *Redirection*. Just FYI, information is displayed using stderr and the result output is displayed through stdout.
 
 #### Wrong input file
@@ -48,6 +48,7 @@ You need a input file like below, it must have a COMMAND field, which is the one
 
 
 #### Priority
+
 
 ###### Input file 
 
