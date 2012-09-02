@@ -71,18 +71,24 @@ You need a input file like below, it must have a COMMAND field, which is the one
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 ####Why using Scala ?
 So why did I use Scala instead of Python or Ruby which would have corresponded more to this type of program/script ?
 
 Well, the answer is simple, I'm actually learning Scala and now writing my scripts in this language to understand how it works. I totally confess that is not the most efficient way to write this kind of program, that my code is not super well written, nor optimised, but who cares ? It works, it can be reused, and if I want to take the time for that, It will be rewrote to a better code.
+
+
+#### Further notes :
+
+This software is released using GPL. Please feel free to contact me for any suggestion or improvements. Thanks !
+
+#### GPL & Copyright :
+
+Copyright 2012 Pierre-Yves Aquilanti
+
+This file is part of CComposer.
+
+CComposer is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+CComposer is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with CComposer. If not, see http://www.gnu.org/licenses/.
